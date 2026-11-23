@@ -1,7 +1,7 @@
 <?php
 
 return [
-    ['id' => 1, 'titulo' => 'Workshop de Laravel', 'tipo' => 'workshop',
+    ['id' => 1,'titulo' => '<script>alert("XSS")</script>Hackathon ISLA 24h',
      'data' => '2026-10-14', 'local' => 'Laboratório 2.05', 'vagas' => 20, 'inscritos' => 12],
     ['id' => 2, 'titulo' => 'Palestra: Carreiras em Cibersegurança', 'tipo' => 'palestra',
      'data' => '2026-10-21', 'local' => 'Auditório', 'vagas' => 120, 'inscritos' => 120],
@@ -13,4 +13,4 @@ return [
      'data' => '2026-12-02', 'local' => 'Sala 3.10', 'vagas' => 40, 'inscritos' => 9],
     ['id' => 6, 'titulo' => 'Workshop de Flutter', 'tipo' => 'workshop',
      'data' => '2026-11-18', 'local' => 'Laboratório 2.05', 'vagas' => 30, 'inscritos' => 10],
-];
+];  
