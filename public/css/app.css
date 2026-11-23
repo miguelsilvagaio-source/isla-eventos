@@ -1,0 +1,13 @@
+body { font-family: system-ui, sans-serif; margin: 0; color: #222; }
+.contentor { max-width: 960px; margin: 0 auto; padding: 1rem; }
+.topo { display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: #7a1f22; color: #fff; }
+.topo nav a { color: #fff; margin-left: 1rem; text-decoration: none; }
+.topo nav a[aria-current="page"] { text-decoration: underline; font-weight: bold; }
+.grelha { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; }
+.cartao { border: 1px solid #ddd; border-radius: 8px; padding: 1rem; }
+.etiqueta { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 4px; font-size: 0.8rem; background: #eee; }
+.alerta { padding: 0.75rem 1rem; border-radius: 6px; margin: 1rem 0; }
+.alerta-info { background: #e7f1fb; }
+.alerta-aviso { background: #fdf0d5; }
+.botao { display: inline-block; padding: 0.5rem 1rem; background: #7a1f22; color: #fff; border-radius: 6px; text-decoration: none; }
+.rodape { text-align: center; padding: 1rem; color: #666; border-top: 1px solid #ddd; margin-top: 2rem; }
