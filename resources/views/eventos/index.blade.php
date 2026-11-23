@@ -38,7 +38,7 @@
                     </td>
                 </tr>
             @empty
-                <tr><td colspan="4">Não há eventos para mostrar.</td></tr>
+                <x-alerta tipo="aviso">Não há eventos para mostrar.</x-alerta>
             @endforelse
         </tbody>
     </table>

@@ -15,14 +15,13 @@
 
         <h2>Próximos eventos</h2>
         <ul>
-            @forelse ($proximos as $evento)
-                <li>
-                    <a href="{{ route('eventos.show', $evento['id']) }}">{{ $evento['titulo'] }}</a>
-                    ({{ date('d/m/Y', strtotime($evento['data'])) }})
-                </li>
-            @empty
-                <li>Não há próximos eventos.</li>
-            @endforelse
+           <div class="grelha">
+    @forelse ($proximos as $evento)
+        <x-cartao-evento :evento="$evento" />
+    @empty
+        <x-alerta>Ainda não há eventos marcados.</x-alerta>
+    @endforelse
+</div>
         </ul>
     </main>
 </body>
